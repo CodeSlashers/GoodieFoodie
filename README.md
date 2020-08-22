@@ -274,10 +274,3 @@ Here are some noteworthy snippets from both:
 - [xabikos.reactsnippets](https://github.com/xabikos/vscode-react/blob/master/README.md#snippets)
 - [burkeholland.simple-react-snippets](https://github.com/burkeholland/simple-react-snippets/blob/master/README.md#snippets)
 
-## Contributing
-
-PRs accepted.
-
-## License
-
-MIT © CynderTech Corp.
