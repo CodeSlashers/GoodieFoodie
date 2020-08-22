@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { View, Text } from 'native-base';
 import { TouchableOpacity } from 'react-native';
 
-const Tabs = ({ activeTab, handleSwitch }) => {
+const BasketTabs = ({ activeTab, handleSwitch }) => {
 	return (
 		<View
 			style={{
@@ -38,7 +38,7 @@ const Tabs = ({ activeTab, handleSwitch }) => {
 							fontSize: 16,
 						}}
 					>
-						Buy
+						Offers
 					</Text>
 				</View>
 			</TouchableOpacity>
@@ -70,7 +70,39 @@ const Tabs = ({ activeTab, handleSwitch }) => {
 							fontSize: 16,
 						}}
 					>
-						Sell
+						Orders
+					</Text>
+				</View>
+			</TouchableOpacity>
+			<TouchableOpacity
+				onPress={() => {
+					handleSwitch(2);
+				}}
+			>
+				<View
+					style={{
+						backgroundColor:
+							activeTab === 2 ? 'rgba(6,84,18,1)' : '#F7FFF7',
+						borderTopRightRadius: 9,
+						borderBottomLeftRadius: 9,
+						width: 83,
+						height: 30,
+						marginLeft: 10,
+						justifyContent: 'center',
+					}}
+				>
+					<Text
+						style={{
+							fontFamily: 'Roboto',
+							color:
+								activeTab === 2
+									? 'rgba(184,249,185,1)'
+									: '#7D7D7D',
+							alignSelf: 'center',
+							fontSize: 16,
+						}}
+					>
+						Done
 					</Text>
 				</View>
 			</TouchableOpacity>
@@ -78,6 +110,6 @@ const Tabs = ({ activeTab, handleSwitch }) => {
 	);
 };
 
-Tabs.propTypes = { activeTab: PropTypes.number.isRequired };
+BasketTabs.propTypes = { activeTab: PropTypes.number.isRequired };
 
-export default Tabs;
+export default BasketTabs;
