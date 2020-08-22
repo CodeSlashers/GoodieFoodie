@@ -3,11 +3,11 @@
 A community-based platform that connects people to their neighbourhood and establishments like cafes, restaurants, and supermarkets to ensure that surplus food aka GOODIES and other items are shared and sold instead of being wasted.
 
 ## Features
-1. Buy Goodies. You can buy goodies (Nearly expiring but still too good to go food) based on geographical location.
-2. Sell Goodies. 
-	a) You can put your goodies on your list.
-	b) Offer your goodies on a crowd-sourcing features based on your location.
-3. Establishments Goodies. You can buy goodies which are going to be pulled out from establishments like cafes, restaurants, and supermarkets for discounted price.
+1. `Buy Goodies.` You can buy goodies (Nearly expiring but still too good to go food) based on geographical location.
+2. `Sell Goodies.` 
+	- You can put your goodies on your list.
+	- Offer your goodies on a crowd-sourcing features based on your location.
+3. `Establishments Goodies.` You can buy goodies which are going to be pulled out from establishments like cafes, restaurants, and supermarkets for discounted price.
 
 ## Environment Setup
 
